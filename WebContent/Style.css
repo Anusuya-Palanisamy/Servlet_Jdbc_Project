@@ -1,0 +1,213 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+	top: 10px;
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+form.test input[type=text] {
+	padding: 10px;
+	font-size: 12px;
+	border: 1px solid grey;
+	float: left;
+	width: 50%;
+	background: #f1f1f1;
+}
+
+form.test button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 12px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.test button:hover {
+	background: #0b7dda;
+}
+
+form.test::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+body {
+	background: url("./images/back1.jpg") no-repeat;
+	background-size: cover;
+	font-family: Arial;
+	color: white;
+	font-size: center;
+	border-color: black;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	align-self: center;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: blue;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 2px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+a
+{
+	color:Blue;
+}
+
+ul li a:hover {
+	background-color: red;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.login-box {
+	width: 310px;
+	height: 250px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 70%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 10px 40px;
+}
+
+.SignUp-box {
+	width: 330px;
+	height: 510px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 10px 40px;
+}
+
+button.type {
+	align-self: absolute;
+}
+
+.image1 {
+	float: left;
+	top: 120px;
+}
+
+.image2 {
+	padding-left: 630px;
+}
+
+.HpLaptop {
+	align-items: center;
+	text-align: center;
+	top: 200px;
+}
+
+.Hp {
+	padding-left: 500px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+.HomeAdmin-box {
+	width: 380px;
+	height: 370px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 10px 40px;
+}
+
+.Update-box {
+	width: 270px;
+	height: 230px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 70%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 10px 40px;
+}
+.Delete-box {
+	width: 270px;
+	height: 230px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 70%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 10px 40px;
+}
